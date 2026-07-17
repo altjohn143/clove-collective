@@ -22,5 +22,4 @@ npm start
 
 - `app/` — website pages, layout, and styling
 - `public/` — brand assets and campaign media
-- `config/` — deployment configuration
-- `build/` — production build integration
+- `next.config.ts` — Next.js and Vercel configuration
