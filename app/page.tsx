@@ -63,7 +63,7 @@ export default function Home() {
       <nav className={`nav ${scrolled ? "scrolled" : ""}`} aria-label="Main navigation">
         <a className="brand" href="#top" aria-label="Clove Collective home"><img src="/clove-logo.svg" alt="Clove Collective" /></a>
         <div className="nav-links">
-          <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#talent">Talent</a>
+          <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#talent">Talent</a><a href="#contact">Contact</a>
         </div>
         <a className="pill pill-dark" href="#contact">Let&apos;s talk <span>↗</span></a>
         <button className={`menu-toggle ${menuOpen ? "active" : ""}`} type="button" aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}><span /><span /></button>
