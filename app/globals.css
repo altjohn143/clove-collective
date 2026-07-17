@@ -13,5 +13,6 @@
 .desktop-float.open{width:350px}.desktop-float .float-links{gap:15px;padding-left:10px}
 .brand img{object-fit:contain}
 .clove-orbit>img{width:72%;height:auto;object-fit:contain;overflow:visible}
+.contact-details{max-width:480px;display:grid;gap:15px}.contact-details p{margin:0 0 8px}.contact-details>a{display:grid;grid-template-columns:70px 1fr;gap:14px;line-height:1.45;font-size:14px}.contact-details>a span{text-transform:uppercase;font-size:10px;font-weight:800;letter-spacing:.1em;padding-top:3px}.contact-details>a:hover{color:var(--green)}
 @media(max-width:800px){.clove-orbit>img{width:72%;height:auto}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.ticker div{animation:none}*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}

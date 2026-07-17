@@ -163,7 +163,11 @@ export default function Home() {
         <div className="contact-top"><div className="eyebrow light"><span>05</span> Make something happen</div><CloveMark /></div>
         <h2>Got a vision?<br /><em>Let&apos;s give it flavor.</em></h2>
         <div className="contact-bottom">
-          <p>For brand partnerships, campaigns, talent inquiries, and bright ideas.</p>
+          <div className="contact-details">
+            <p>For brand partnerships, campaigns, talent inquiries, and bright ideas.</p>
+            <a href="tel:+63289229724"><span>Landline</span> (02) 8922 9724</a>
+            <a href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjovpOQvNmVAxUAAAAAHQAAAAAQBQ..i&amp;client=opera-gx&amp;pvq=Cg0vZy8xMWJjN3F2MXc1Ih0KF3ByZXN0aWdlIHRvd2VyIHVuaXQgNjAyEAIYAw&amp;lqi=ChdwcmVzdGlnZSB0b3dlciB1bml0IDYwMkjljrT7rKqAgAhaJRAAEAEQAhADGAAYASIXcHJlc3RpZ2UgdG93ZXIgdW5pdCA2MDKSARBjb3Jwb3JhdGVfb2ZmaWNlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5mTlhNdGExWkJFQUX6AQQIABAq&amp;fvr=1&amp;cs=0&amp;um=1&amp;ie=UTF-8&amp;fb=1&amp;gl=ph&amp;sa=X&amp;ftid=0x3397c81751e0ff27:0xea97e2cc6d67e7da" target="_blank" rel="noreferrer"><span>Office</span> Unit 602, Prestige Tower, F. Ortigas Jr. Rd, Ortigas Center, Pasig, Metro Manila ↗</a>
+          </div>
           <a className="contact-button" href="mailto:hello@clovecollective.ph">hello@clovecollective.ph <span>↗</span></a>
         </div>
       </section>
