@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <main>
       <nav className={`nav ${scrolled ? "scrolled" : ""}`} aria-label="Main navigation">
-        <a className="brand" href="#top" aria-label="Clove Collective home"><img src="/clove-logo-transparent.png" alt="Clove Collective" /></a>
+        <a className="brand" href="#top" aria-label="Clove Collective home"><img src="/clove-logo.svg" alt="Clove Collective" /></a>
         <div className="nav-links">
           <a href="#about">About</a><a href="#services">Services</a><a href="#work">Work</a><a href="#talent">Talent</a>
         </div>
@@ -101,7 +101,7 @@ export default function Home() {
           <p>A revolutionary PR &amp; talent representation agency for brands and people ready to make culture move.</p>
           <a className="round-link" href="#about" aria-label="Discover Clove Collective">↓</a>
         </div>
-        <div className="clove-orbit" aria-hidden="true"><img src="/clove-logo-transparent.png" alt="" /><span className="orbit-copy">IDEAS • INFLUENCE • IMPACT • </span></div>
+        <div className="clove-orbit" aria-hidden="true"><img src="/clove-logo.svg" alt="" /><span className="orbit-copy">IDEAS • INFLUENCE • IMPACT • </span></div>
       </section>
 
       <div className="ticker" aria-label="Clove Collective services">
@@ -169,7 +169,7 @@ export default function Home() {
       </section>
 
       <footer className="reveal" data-reveal>
-        <a className="brand footer-brand" href="#top"><img src="/clove-logo-transparent.png" alt="Clove Collective" /></a>
+        <a className="brand footer-brand" href="#top"><img src="/clove-logo.svg" alt="Clove Collective" /></a>
         <div className="socials"><a href="https://www.instagram.com/clovecollectiveph/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.threads.com/@clovecollectiveph" target="_blank" rel="noreferrer">Threads ↗</a></div>
         <p>© 2026 Clove Collective PH</p>
       </footer>
